@@ -1,5 +1,5 @@
 module Rack
   module Zippy
-    VERSION = '3.0.1.pre'
+    VERSION = '3.0.2.pre'
   end
 end
