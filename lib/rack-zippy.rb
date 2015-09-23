@@ -35,7 +35,7 @@ module Rack
       def call(env)
         path_info = env['PATH_INFO']
 
-        return not_found_response if path_info =~ ILLEGAL_PATH_REGEX
+        # return not_found_response if path_info =~ ILLEGAL_PATH_REGEX
 
         serveable_file_options = {
             :path_info => path_info,
